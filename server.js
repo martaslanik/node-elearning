@@ -51,7 +51,7 @@ app.get('/', (req, res) => {
 // added this
 app.get('/elearning', (req, res) => {
   res.render('elearning.hbs', {
-    pageTitle: 'eLearning Samples by Marta',
+    pageTitle: 'eLearning Page',
     welcomeMessage: 'Welcome to my module!'
   });
 });
